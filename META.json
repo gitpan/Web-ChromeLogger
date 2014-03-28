@@ -43,6 +43,8 @@
       },
       "runtime" : {
          "requires" : {
+            "JSON::XS" : "0",
+            "MIME::Base64" : "0",
             "perl" : "5.008005"
          }
       },
@@ -55,7 +57,7 @@
    "provides" : {
       "Web::ChromeLogger" : {
          "file" : "lib/Web/ChromeLogger.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -69,5 +71,5 @@
          "web" : "https://github.com/tokuhirom/Web-ChromeLogger"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }

@@ -1,5 +1,9 @@
 Revision history for Perl extension Web-ChromeLogger
 
+0.03 2014-03-28T01:10:23Z
+
+    - Fixed dependencies.
+
 0.02 2014-03-28T00:42:18Z
 
     - Better POD markup.
