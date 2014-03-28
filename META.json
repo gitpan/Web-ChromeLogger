@@ -1,0 +1,73 @@
+{
+   "abstract" : "ChromeLogger for Perl",
+   "author" : [
+      "Tokuhiro Matsuno <tokuhirom@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.13.0",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Web-ChromeLogger",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "5.008005"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      }
+   },
+   "provides" : {
+      "Web::ChromeLogger" : {
+         "file" : "lib/Web/ChromeLogger.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/Web-ChromeLogger/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/Web-ChromeLogger",
+      "repository" : {
+         "url" : "git://github.com/tokuhirom/Web-ChromeLogger.git",
+         "web" : "https://github.com/tokuhirom/Web-ChromeLogger"
+      }
+   },
+   "version" : "0.01"
+}
