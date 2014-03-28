@@ -28,11 +28,11 @@ no_index:
 provides:
   Web::ChromeLogger:
     file: lib/Web/ChromeLogger.pm
-    version: '0.01'
+    version: '0.02'
 requires:
   perl: '5.008005'
 resources:
   bugtracker: https://github.com/tokuhirom/Web-ChromeLogger/issues
   homepage: https://github.com/tokuhirom/Web-ChromeLogger
   repository: git://github.com/tokuhirom/Web-ChromeLogger.git
-version: '0.01'
+version: '0.02'
