@@ -28,7 +28,7 @@ no_index:
 provides:
   Web::ChromeLogger:
     file: lib/Web/ChromeLogger.pm
-    version: '0.03'
+    version: '0.04'
 requires:
   JSON::XS: '0'
   MIME::Base64: '0'
@@ -37,4 +37,6 @@ resources:
   bugtracker: https://github.com/tokuhirom/Web-ChromeLogger/issues
   homepage: https://github.com/tokuhirom/Web-ChromeLogger
   repository: git://github.com/tokuhirom/Web-ChromeLogger.git
-version: '0.03'
+version: '0.04'
+x_contributors:
+  - 'bayashi <bayashi@cpan.org>'
